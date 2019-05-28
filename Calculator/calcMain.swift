@@ -1,20 +1,21 @@
 //
-//  ViewController.swift
+//  calcMain.swift
 //  FitnessApp
 //
-//  Created by Jake Nguyen on 5/19/19.
+//  Created by Jake Nguyen on 5/20/19.
 //  Copyright © 2019 Jake Nguyen. All rights reserved.
 //
 
+
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class calcMain: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
 }
 
