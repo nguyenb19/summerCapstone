@@ -40,6 +40,7 @@ class ExListScreen: UIViewController {
         let image2 = ImageView(image: #imageLiteral(resourceName: "chest-press-machine"), title: "Chest Press Machine")
         let image3 = ImageView(image: #imageLiteral(resourceName: "cable-cross"), title: "High Cable Chest Fly")
         
+        
         //let image2 = ImageView(image: , title: T##String)
         //let image3 = #imageLiteral(resourceName: <#T##String#>)(resou)
         

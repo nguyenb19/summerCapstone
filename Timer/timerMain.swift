@@ -9,11 +9,14 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class timerMain: UIViewController {
     
     var seconds = 30
-    let timer = Timer()
+    var timer = Timer()
+    var audioPlayer = AVAudioPlayer()
+    var setTime = 30
     
     
     @IBOutlet weak var label: UILabel!
@@ -32,7 +35,9 @@ class timerMain: UIViewController {
     
     @IBAction func start(_ sender: Any)
     {
-        let timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerMain.counter), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerMain.counter), userInfo: nil, repeats: false)
+        
+        setTime = Int(sliderOutlet.value)
         
         sliderOutlet.isHidden = true
         startOutlet.isHidden = true
@@ -47,11 +52,30 @@ class timerMain: UIViewController {
         
         if (seconds == 0)
         {
-            timer.invalidate()
+            //timer.invalidate()//means redraw
             
-            sliderOutlet.isHidden = false
-            startOutlet.isHidden = false
+            //sliderOutlet.isHidden = false
+            //startOutlet.isHidden = false
+            
+            audioPlayer.play()
+            actualStop()
         }
+        else{
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerMain.counter), userInfo: nil, repeats: false)
+        }
+    }
+    
+    func actualStop()
+    {
+        timer.invalidate()
+        seconds = setTime
+        sliderOutlet.setValue(Float(setTime), animated: true)
+        label.text = String(setTime) + " seconds"
+        
+        //audioPlayer.stop()
+        
+        sliderOutlet.isHidden = false
+        startOutlet.isHidden = false
     }
     
     
@@ -59,13 +83,7 @@ class timerMain: UIViewController {
     
     @IBAction func stop(_ sender: Any)
     {
-        timer.invalidate()
-        seconds = 30
-        sliderOutlet.setValue(30, animated: true)
-        label.text = "30 seconds"
-        
-        sliderOutlet.isHidden = false
-        startOutlet.isHidden = false
+        actualStop()
         
     }
     
@@ -74,6 +92,16 @@ class timerMain: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        do
+        {
+            let audioPath = Bundle.main.path(forResource: "Alarm1", ofType: ".mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+        }
+        catch
+        {
+            //ERORR
+        }
     }
     
     

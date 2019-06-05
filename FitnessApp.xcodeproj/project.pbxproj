@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F79769A22A4FF4300A32D6B /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79769922A4FF4300A32D6B /* AddTaskController.swift */; };
 		9FF6A93D2291D0D4001DD61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */; };
 		9FF6A9422291D0D5001DD61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6A9402291D0D4001DD61F /* Main.storyboard */; settings = {ASSET_TAGS = (Chest, ); }; };
 		9FF6A9442291D0D6001DD61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6A9432291D0D6001DD61F /* Assets.xcassets */; };
@@ -30,6 +31,8 @@
 		9FF6A99A229A6007001DD61F /* ExListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A999229A6007001DD61F /* ExListScreen.swift */; };
 		9FF6A99C229A6566001DD61F /* ExListScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A99B229A6566001DD61F /* ExListScreenCell.swift */; };
 		9FF6A99E229A6946001DD61F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A99D229A6946001DD61F /* ImageView.swift */; };
+		9FF6A9A2229FBAAE001DD61F /* Alarm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6A9A1229FBAAE001DD61F /* Alarm1.mp3 */; };
+		9FF6A9A422A4F034001DD61F /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A9A322A4F034001DD61F /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F79769922A4FF4300A32D6B /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 		9FF6A9392291D0D4001DD61F /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FF6A9412291D0D4001DD61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		9FF6A999229A6007001DD61F /* ExListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen.swift; sourceTree = "<group>"; };
 		9FF6A99B229A6566001DD61F /* ExListScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreenCell.swift; sourceTree = "<group>"; };
 		9FF6A99D229A6946001DD61F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		9FF6A9A1229FBAAE001DD61F /* Alarm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alarm1.mp3; path = ../../Alarm1.mp3; sourceTree = "<group>"; };
+		9FF6A9A322A4F034001DD61F /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				9FF6A98522966887001DD61F /* dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg */,
+				9FF6A9A1229FBAAE001DD61F /* Alarm1.mp3 */,
 				9FF6A981229448F8001DD61F /* body.jpg */,
 				9FF6A96D22928C32001DD61F /* excercise.png */,
 				9FF6A96E22928C33001DD61F /* icon-nutrition-1.png */,
@@ -225,7 +232,9 @@
 		9FF6A9782293C0A9001DD61F /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				9FF6A9A322A4F034001DD61F /* TaskCell.swift */,
 				9FF6A97F2293C153001DD61F /* reminderMain.swift */,
+				9F79769922A4FF4300A32D6B /* AddTaskController.swift */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -386,6 +395,7 @@
 				9FF6A97322928C33001DD61F /* custom-desktop-icons-8.png in Resources */,
 				9FF6A97022928C33001DD61F /* timer-icon-21.png in Resources */,
 				9FF6A98622966887001DD61F /* dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg in Resources */,
+				9FF6A9A2229FBAAE001DD61F /* Alarm1.mp3 in Resources */,
 				9FF6A9422291D0D5001DD61F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,11 +430,13 @@
 			files = (
 				9FF6A99E229A6946001DD61F /* ImageView.swift in Sources */,
 				9FF6A9802293C153001DD61F /* reminderMain.swift in Sources */,
+				9F79769A22A4FF4300A32D6B /* AddTaskController.swift in Sources */,
 				9FF6A97A2293C0EB001DD61F /* excerciseMain.swift in Sources */,
 				9FF6A99C229A6566001DD61F /* ExListScreenCell.swift in Sources */,
 				9FF6A97C2293C114001DD61F /* calcMain.swift in Sources */,
 				9FF6A984229657DD001DD61F /* exTab_1.swift in Sources */,
 				9FF6A98A2297013A001DD61F /* XCcode.swift in Sources */,
+				9FF6A9A422A4F034001DD61F /* TaskCell.swift in Sources */,
 				9FF6A97E2293C140001DD61F /* timerMain.swift in Sources */,
 				9FF6A99A229A6007001DD61F /* ExListScreen.swift in Sources */,
 				9FF6A93D2291D0D4001DD61F /* AppDelegate.swift in Sources */,
