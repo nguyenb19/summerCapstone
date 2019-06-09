@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2F74C422AC9E3000A466A0 /* ExListScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C322AC9E3000A466A0 /* ExListScreen2.swift */; };
+		9F2F74C622AC9E5500A466A0 /* ExListScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C522AC9E5500A466A0 /* ExListScreen3.swift */; };
+		9F2F74C822AC9E6400A466A0 /* ExListScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C722AC9E6400A466A0 /* ExListScreen4.swift */; };
+		9F2F74CA22AC9E7100A466A0 /* ExListScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C922AC9E7100A466A0 /* ExListScreen5.swift */; };
 		9F79769A22A4FF4300A32D6B /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79769922A4FF4300A32D6B /* AddTaskController.swift */; };
 		9FF6A93D2291D0D4001DD61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */; };
 		9FF6A9422291D0D5001DD61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6A9402291D0D4001DD61F /* Main.storyboard */; settings = {ASSET_TAGS = (Chest, ); }; };
@@ -60,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F2F74C322AC9E3000A466A0 /* ExListScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen2.swift; sourceTree = "<group>"; };
+		9F2F74C522AC9E5500A466A0 /* ExListScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen3.swift; sourceTree = "<group>"; };
+		9F2F74C722AC9E6400A466A0 /* ExListScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen4.swift; sourceTree = "<group>"; };
+		9F2F74C922AC9E7100A466A0 /* ExListScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen5.swift; sourceTree = "<group>"; };
 		9F79769922A4FF4300A32D6B /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 		9FF6A9392291D0D4001DD61F /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +136,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2F74CB22ACA2D800A466A0 /* Chest */ = {
+			isa = PBXGroup;
+			children = (
+				9FF6A999229A6007001DD61F /* ExListScreen.swift */,
+			);
+			path = Chest;
+			sourceTree = "<group>";
+		};
+		9F2F74CC22ACA2FD00A466A0 /* Legs */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F74C322AC9E3000A466A0 /* ExListScreen2.swift */,
+			);
+			path = Legs;
+			sourceTree = "<group>";
+		};
+		9F2F74CD22ACA70600A466A0 /* Shoulder */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F74C522AC9E5500A466A0 /* ExListScreen3.swift */,
+			);
+			path = Shoulder;
+			sourceTree = "<group>";
+		};
+		9F2F74CE22ACA72800A466A0 /* Arms */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F74C722AC9E6400A466A0 /* ExListScreen4.swift */,
+			);
+			path = Arms;
+			sourceTree = "<group>";
+		};
+		9F2F74CF22ACA75F00A466A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F74C922AC9E7100A466A0 /* ExListScreen5.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		9FF6A9302291D0D4001DD61F = {
 			isa = PBXGroup;
 			children = (
@@ -204,9 +252,13 @@
 		9FF6A9752293BEB6001DD61F /* Excercise */ = {
 			isa = PBXGroup;
 			children = (
-				9FF6A99D229A6946001DD61F /* ImageView.swift */,
 				9FF6A99B229A6566001DD61F /* ExListScreenCell.swift */,
-				9FF6A999229A6007001DD61F /* ExListScreen.swift */,
+				9FF6A99D229A6946001DD61F /* ImageView.swift */,
+				9F2F74CB22ACA2D800A466A0 /* Chest */,
+				9F2F74CC22ACA2FD00A466A0 /* Legs */,
+				9F2F74CD22ACA70600A466A0 /* Shoulder */,
+				9F2F74CE22ACA72800A466A0 /* Arms */,
+				9F2F74CF22ACA75F00A466A0 /* Core */,
 				9FF6A9792293C0EB001DD61F /* excerciseMain.swift */,
 				9FF6A983229657DD001DD61F /* exTab_1.swift */,
 			);
@@ -432,13 +484,17 @@
 				9FF6A9802293C153001DD61F /* reminderMain.swift in Sources */,
 				9F79769A22A4FF4300A32D6B /* AddTaskController.swift in Sources */,
 				9FF6A97A2293C0EB001DD61F /* excerciseMain.swift in Sources */,
+				9F2F74C422AC9E3000A466A0 /* ExListScreen2.swift in Sources */,
 				9FF6A99C229A6566001DD61F /* ExListScreenCell.swift in Sources */,
 				9FF6A97C2293C114001DD61F /* calcMain.swift in Sources */,
 				9FF6A984229657DD001DD61F /* exTab_1.swift in Sources */,
+				9F2F74C622AC9E5500A466A0 /* ExListScreen3.swift in Sources */,
 				9FF6A98A2297013A001DD61F /* XCcode.swift in Sources */,
 				9FF6A9A422A4F034001DD61F /* TaskCell.swift in Sources */,
 				9FF6A97E2293C140001DD61F /* timerMain.swift in Sources */,
+				9F2F74CA22AC9E7100A466A0 /* ExListScreen5.swift in Sources */,
 				9FF6A99A229A6007001DD61F /* ExListScreen.swift in Sources */,
+				9F2F74C822AC9E6400A466A0 /* ExListScreen4.swift in Sources */,
 				9FF6A93D2291D0D4001DD61F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
