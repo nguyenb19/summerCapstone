@@ -53,6 +53,15 @@ class ExListScreen4: UIViewController {
         
         return tempImages
         
+        
+        
+    }
+    func buttonPress()
+    {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Arm01") as UIViewController
+        navigationController?.pushViewController(vc, animated: true)
+        
     }
     
     
@@ -60,6 +69,30 @@ class ExListScreen4: UIViewController {
 
 extension ExListScreen4: UITableViewDataSource, UITableViewDelegate
 {
+    //
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0
+        {
+            self.buttonPress()
+        }
+            
+        else if indexPath.row == 1
+        {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "Arm02") as UIViewController
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        if indexPath.row == 2
+        {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "Arm03") as UIViewController
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return images.count
     }

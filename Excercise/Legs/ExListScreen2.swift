@@ -56,10 +56,48 @@ class ExListScreen2: UIViewController {
     }
     
     
+    //viet 1 funct de push 1 viewcontroller moi
+    
+    
+    func buttonPress()
+    {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Leg1") as UIViewController
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    
+    
 }
 
 extension ExListScreen2: UITableViewDataSource, UITableViewDelegate
 {
+    //
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0
+        {
+            self.buttonPress()
+        }
+            
+        else if indexPath.row == 1
+        {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "Leg2") as UIViewController
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        if indexPath.row == 2
+        {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "Leg3") as UIViewController
+            navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return images.count
     }
@@ -71,6 +109,8 @@ extension ExListScreen2: UITableViewDataSource, UITableViewDelegate
         cell.setImage(image: image)
         
         return cell
+        
+        
         
     }
     

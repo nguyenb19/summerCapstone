@@ -7,10 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F20142322B644DA00EAA26E /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142222B644DA00EAA26E /* note2.png */; };
+		9F20142622B646B500EAA26E /* note23.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142422B646B400EAA26E /* note23.png */; };
+		9F20142722B646B500EAA26E /* note24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142522B646B500EAA26E /* note24.png */; };
+		9F20142922B8BC8600EAA26E /* 0009body.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142822B8BC8500EAA26E /* 0009body.png */; };
+		9F20142C22B9FE5800EAA26E /* tri01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142B22B9FE5700EAA26E /* tri01.jpg */; };
+		9F20142E22B9FE6000EAA26E /* tri02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142D22B9FE5F00EAA26E /* tri02.jpg */; };
+		9F20143022BA01AD00EAA26E /* bic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20142F22BA01AB00EAA26E /* bic01.jpg */; };
+		9F20143222BA01B500EAA26E /* bic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143122BA01B400EAA26E /* bic02.jpg */; };
+		9F20143522BA04AA00EAA26E /* dumbalter01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143322BA04A900EAA26E /* dumbalter01.jpg */; };
+		9F20145122BA1CDB00EAA26E /* bench1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143722BA1CCB00EAA26E /* bench1.jpg */; };
+		9F20145222BA1CDB00EAA26E /* bic01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143822BA1CCD00EAA26E /* bic01.jpg */; };
+		9F20145322BA1CDB00EAA26E /* split2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143922BA1CCE00EAA26E /* split2.jpg */; };
+		9F20145422BA1CDB00EAA26E /* cable1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143A22BA1CCF00EAA26E /* cable1.jpg */; };
+		9F20145522BA1CDB00EAA26E /* climb2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143B22BA1CCF00EAA26E /* climb2.jpg */; };
+		9F20145622BA1CDB00EAA26E /* inclnepress2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143C22BA1CCF00EAA26E /* inclnepress2.jpg */; };
+		9F20145722BA1CDB00EAA26E /* 1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143D22BA1CD000EAA26E /* 1_2.jpg */; };
+		9F20145822BA1CDB00EAA26E /* reach2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143E22BA1CD000EAA26E /* reach2.jpg */; };
+		9F20145922BA1CDB00EAA26E /* squat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20143F22BA1CD100EAA26E /* squat1.jpg */; };
+		9F20145A22BA1CDB00EAA26E /* climb1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144022BA1CD100EAA26E /* climb1.jpg */; };
+		9F20145B22BA1CDB00EAA26E /* twist2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144122BA1CD200EAA26E /* twist2.jpg */; };
+		9F20145C22BA1CDB00EAA26E /* reach1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144222BA1CD200EAA26E /* reach1.jpg */; };
+		9F20145D22BA1CDB00EAA26E /* split1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144322BA1CD300EAA26E /* split1.jpg */; };
+		9F20145E22BA1CDB00EAA26E /* 132_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144422BA1CD300EAA26E /* 132_1.jpg */; };
+		9F20145F22BA1CDB00EAA26E /* dumbalter01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144522BA1CD400EAA26E /* dumbalter01.jpg */; };
+		9F20146022BA1CDB00EAA26E /* 921_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144622BA1CD400EAA26E /* 921_2.jpg */; };
+		9F20146122BA1CDB00EAA26E /* bic02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144722BA1CD500EAA26E /* bic02.jpg */; };
+		9F20146222BA1CDB00EAA26E /* cable2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144822BA1CD600EAA26E /* cable2.jpg */; };
+		9F20146322BA1CDB00EAA26E /* bench2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144922BA1CD600EAA26E /* bench2.jpg */; };
+		9F20146422BA1CDB00EAA26E /* inclnepress1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144A22BA1CD700EAA26E /* inclnepress1.jpg */; };
+		9F20146522BA1CDB00EAA26E /* squat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144B22BA1CD700EAA26E /* squat2.jpg */; };
+		9F20146622BA1CDB00EAA26E /* twist1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144C22BA1CD800EAA26E /* twist1.jpg */; };
+		9F20146722BA1CDB00EAA26E /* tri02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144D22BA1CD800EAA26E /* tri02.jpg */; };
+		9F20146822BA1CDB00EAA26E /* 921_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144E22BA1CD900EAA26E /* 921_1.jpg */; };
+		9F20146922BA1CDB00EAA26E /* tri01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20144F22BA1CD900EAA26E /* tri01.jpg */; };
+		9F20146A22BA1CDB00EAA26E /* dumbalter02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F20145022BA1CDA00EAA26E /* dumbalter02.jpg */; };
 		9F2F74C422AC9E3000A466A0 /* ExListScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C322AC9E3000A466A0 /* ExListScreen2.swift */; };
 		9F2F74C622AC9E5500A466A0 /* ExListScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C522AC9E5500A466A0 /* ExListScreen3.swift */; };
 		9F2F74C822AC9E6400A466A0 /* ExListScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C722AC9E6400A466A0 /* ExListScreen4.swift */; };
 		9F2F74CA22AC9E7100A466A0 /* ExListScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F74C922AC9E7100A466A0 /* ExListScreen5.swift */; };
+		9F2F74D622B62F1700A466A0 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F74D222B62F1600A466A0 /* 04.png */; };
+		9F2F74D722B62F1700A466A0 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F74D322B62F1600A466A0 /* 02.png */; };
+		9F2F74D822B62F1700A466A0 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F74D422B62F1700A466A0 /* 03.png */; };
+		9F2F74D922B62F1700A466A0 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F74D522B62F1700A466A0 /* 01.png */; };
 		9F79769A22A4FF4300A32D6B /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79769922A4FF4300A32D6B /* AddTaskController.swift */; };
 		9FF6A93D2291D0D4001DD61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */; };
 		9FF6A9422291D0D5001DD61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6A9402291D0D4001DD61F /* Main.storyboard */; settings = {ASSET_TAGS = (Chest, ); }; };
@@ -64,10 +103,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F20142222B644DA00EAA26E /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		9F20142422B646B400EAA26E /* note23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note23.png; sourceTree = "<group>"; };
+		9F20142522B646B500EAA26E /* note24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note24.png; sourceTree = "<group>"; };
+		9F20142822B8BC8500EAA26E /* 0009body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0009body.png; sourceTree = "<group>"; };
+		9F20142B22B9FE5700EAA26E /* tri01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tri01.jpg; sourceTree = "<group>"; };
+		9F20142D22B9FE5F00EAA26E /* tri02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tri02.jpg; sourceTree = "<group>"; };
+		9F20142F22BA01AB00EAA26E /* bic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bic01.jpg; sourceTree = "<group>"; };
+		9F20143122BA01B400EAA26E /* bic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bic02.jpg; sourceTree = "<group>"; };
+		9F20143322BA04A900EAA26E /* dumbalter01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumbalter01.jpg; sourceTree = "<group>"; };
+		9F20143722BA1CCB00EAA26E /* bench1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bench1.jpg; sourceTree = "<group>"; };
+		9F20143822BA1CCD00EAA26E /* bic01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bic01.jpg; path = ../../../../../Desktop/EXERCISES/bic01.jpg; sourceTree = "<group>"; };
+		9F20143922BA1CCE00EAA26E /* split2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = split2.jpg; sourceTree = "<group>"; };
+		9F20143A22BA1CCF00EAA26E /* cable1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cable1.jpg; sourceTree = "<group>"; };
+		9F20143B22BA1CCF00EAA26E /* climb2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = climb2.jpg; sourceTree = "<group>"; };
+		9F20143C22BA1CCF00EAA26E /* inclnepress2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inclnepress2.jpg; sourceTree = "<group>"; };
+		9F20143D22BA1CD000EAA26E /* 1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_2.jpg; sourceTree = "<group>"; };
+		9F20143E22BA1CD000EAA26E /* reach2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reach2.jpg; sourceTree = "<group>"; };
+		9F20143F22BA1CD100EAA26E /* squat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squat1.jpg; sourceTree = "<group>"; };
+		9F20144022BA1CD100EAA26E /* climb1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = climb1.jpg; sourceTree = "<group>"; };
+		9F20144122BA1CD200EAA26E /* twist2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twist2.jpg; sourceTree = "<group>"; };
+		9F20144222BA1CD200EAA26E /* reach1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reach1.jpg; sourceTree = "<group>"; };
+		9F20144322BA1CD300EAA26E /* split1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = split1.jpg; sourceTree = "<group>"; };
+		9F20144422BA1CD300EAA26E /* 132_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 132_1.jpg; sourceTree = "<group>"; };
+		9F20144522BA1CD400EAA26E /* dumbalter01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dumbalter01.jpg; path = ../../../../../Desktop/EXERCISES/dumbalter01.jpg; sourceTree = "<group>"; };
+		9F20144622BA1CD400EAA26E /* 921_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 921_2.jpg; sourceTree = "<group>"; };
+		9F20144722BA1CD500EAA26E /* bic02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bic02.jpg; path = ../../../../../Desktop/EXERCISES/bic02.jpg; sourceTree = "<group>"; };
+		9F20144822BA1CD600EAA26E /* cable2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cable2.jpg; sourceTree = "<group>"; };
+		9F20144922BA1CD600EAA26E /* bench2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bench2.jpg; sourceTree = "<group>"; };
+		9F20144A22BA1CD700EAA26E /* inclnepress1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inclnepress1.jpg; sourceTree = "<group>"; };
+		9F20144B22BA1CD700EAA26E /* squat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squat2.jpg; sourceTree = "<group>"; };
+		9F20144C22BA1CD800EAA26E /* twist1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twist1.jpg; sourceTree = "<group>"; };
+		9F20144D22BA1CD800EAA26E /* tri02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tri02.jpg; path = ../../../../../Desktop/EXERCISES/tri02.jpg; sourceTree = "<group>"; };
+		9F20144E22BA1CD900EAA26E /* 921_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 921_1.jpg; sourceTree = "<group>"; };
+		9F20144F22BA1CD900EAA26E /* tri01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tri01.jpg; path = ../../../../../Desktop/EXERCISES/tri01.jpg; sourceTree = "<group>"; };
+		9F20145022BA1CDA00EAA26E /* dumbalter02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dumbalter02.jpg; path = ../../../../../Desktop/EXERCISES/dumbalter02.jpg; sourceTree = "<group>"; };
 		9F2F74C322AC9E3000A466A0 /* ExListScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen2.swift; sourceTree = "<group>"; };
 		9F2F74C522AC9E5500A466A0 /* ExListScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen3.swift; sourceTree = "<group>"; };
 		9F2F74C722AC9E6400A466A0 /* ExListScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen4.swift; sourceTree = "<group>"; };
 		9F2F74C922AC9E7100A466A0 /* ExListScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExListScreen5.swift; sourceTree = "<group>"; };
+		9F2F74D222B62F1600A466A0 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		9F2F74D322B62F1600A466A0 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		9F2F74D422B62F1700A466A0 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		9F2F74D522B62F1700A466A0 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		9F79769922A4FF4300A32D6B /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 		9FF6A9392291D0D4001DD61F /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF6A93C2291D0D4001DD61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +214,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F20142A22B9FE1C00EAA26E /* Exercises  */ = {
+			isa = PBXGroup;
+			children = (
+				9F20143D22BA1CD000EAA26E /* 1_2.jpg */,
+				9F20144422BA1CD300EAA26E /* 132_1.jpg */,
+				9F20144E22BA1CD900EAA26E /* 921_1.jpg */,
+				9F20144622BA1CD400EAA26E /* 921_2.jpg */,
+				9F20143722BA1CCB00EAA26E /* bench1.jpg */,
+				9F20144922BA1CD600EAA26E /* bench2.jpg */,
+				9F20143822BA1CCD00EAA26E /* bic01.jpg */,
+				9F20144722BA1CD500EAA26E /* bic02.jpg */,
+				9F20143A22BA1CCF00EAA26E /* cable1.jpg */,
+				9F20144822BA1CD600EAA26E /* cable2.jpg */,
+				9F20144022BA1CD100EAA26E /* climb1.jpg */,
+				9F20143B22BA1CCF00EAA26E /* climb2.jpg */,
+				9F20144522BA1CD400EAA26E /* dumbalter01.jpg */,
+				9F20145022BA1CDA00EAA26E /* dumbalter02.jpg */,
+				9F20144A22BA1CD700EAA26E /* inclnepress1.jpg */,
+				9F20143C22BA1CCF00EAA26E /* inclnepress2.jpg */,
+				9F20144222BA1CD200EAA26E /* reach1.jpg */,
+				9F20143E22BA1CD000EAA26E /* reach2.jpg */,
+				9F20144322BA1CD300EAA26E /* split1.jpg */,
+				9F20143922BA1CCE00EAA26E /* split2.jpg */,
+				9F20143F22BA1CD100EAA26E /* squat1.jpg */,
+				9F20144B22BA1CD700EAA26E /* squat2.jpg */,
+				9F20144F22BA1CD900EAA26E /* tri01.jpg */,
+				9F20144D22BA1CD800EAA26E /* tri02.jpg */,
+				9F20144C22BA1CD800EAA26E /* twist1.jpg */,
+				9F20144122BA1CD200EAA26E /* twist2.jpg */,
+				9F20143322BA04A900EAA26E /* dumbalter01.jpg */,
+				9F20143122BA01B400EAA26E /* bic02.jpg */,
+				9F20142F22BA01AB00EAA26E /* bic01.jpg */,
+				9F20142D22B9FE5F00EAA26E /* tri02.jpg */,
+				9F20142B22B9FE5700EAA26E /* tri01.jpg */,
+			);
+			path = "Exercises ";
+			sourceTree = "<group>";
+		};
 		9F2F74CB22ACA2D800A466A0 /* Chest */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,8 +353,17 @@
 		9FF6A9742293BE8C001DD61F /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				9F20142A22B9FE1C00EAA26E /* Exercises  */,
+				9F20142822B8BC8500EAA26E /* 0009body.png */,
+				9F20142422B646B400EAA26E /* note23.png */,
+				9F20142522B646B500EAA26E /* note24.png */,
+				9F2F74D522B62F1700A466A0 /* 01.png */,
+				9F2F74D322B62F1600A466A0 /* 02.png */,
+				9F2F74D422B62F1700A466A0 /* 03.png */,
+				9F2F74D222B62F1600A466A0 /* 04.png */,
 				9FF6A98522966887001DD61F /* dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg */,
 				9FF6A9A1229FBAAE001DD61F /* Alarm1.mp3 */,
+				9F20142222B644DA00EAA26E /* note2.png */,
 				9FF6A981229448F8001DD61F /* body.jpg */,
 				9FF6A96D22928C32001DD61F /* excercise.png */,
 				9FF6A96E22928C33001DD61F /* icon-nutrition-1.png */,
@@ -254,9 +379,9 @@
 			children = (
 				9FF6A99B229A6566001DD61F /* ExListScreenCell.swift */,
 				9FF6A99D229A6946001DD61F /* ImageView.swift */,
+				9F2F74CD22ACA70600A466A0 /* Shoulder */,
 				9F2F74CB22ACA2D800A466A0 /* Chest */,
 				9F2F74CC22ACA2FD00A466A0 /* Legs */,
-				9F2F74CD22ACA70600A466A0 /* Shoulder */,
 				9F2F74CE22ACA72800A466A0 /* Arms */,
 				9F2F74CF22ACA75F00A466A0 /* Core */,
 				9FF6A9792293C0EB001DD61F /* excerciseMain.swift */,
@@ -438,17 +563,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F20145422BA1CDB00EAA26E /* cable1.jpg in Resources */,
+				9F20145122BA1CDB00EAA26E /* bench1.jpg in Resources */,
+				9F20145622BA1CDB00EAA26E /* inclnepress2.jpg in Resources */,
+				9F20146822BA1CDB00EAA26E /* 921_1.jpg in Resources */,
+				9F2F74D922B62F1700A466A0 /* 01.png in Resources */,
+				9F2F74D822B62F1700A466A0 /* 03.png in Resources */,
+				9F20145522BA1CDB00EAA26E /* climb2.jpg in Resources */,
+				9F2F74D722B62F1700A466A0 /* 02.png in Resources */,
+				9F20142722B646B500EAA26E /* note24.png in Resources */,
 				9FF6A9472291D0D6001DD61F /* LaunchScreen.storyboard in Resources */,
+				9F20145A22BA1CDB00EAA26E /* climb1.jpg in Resources */,
+				9F20145B22BA1CDB00EAA26E /* twist2.jpg in Resources */,
+				9F20142322B644DA00EAA26E /* note2.png in Resources */,
+				9F20145D22BA1CDB00EAA26E /* split1.jpg in Resources */,
 				9FF6A97122928C33001DD61F /* excercise.png in Resources */,
+				9F20146122BA1CDB00EAA26E /* bic02.jpg in Resources */,
+				9F20146222BA1CDB00EAA26E /* cable2.jpg in Resources */,
+				9F20143022BA01AD00EAA26E /* bic01.jpg in Resources */,
+				9F20143222BA01B500EAA26E /* bic02.jpg in Resources */,
 				9FF6A9442291D0D6001DD61F /* Assets.xcassets in Resources */,
+				9F20145222BA1CDB00EAA26E /* bic01.jpg in Resources */,
+				9F20145E22BA1CDB00EAA26E /* 132_1.jpg in Resources */,
+				9F20142C22B9FE5800EAA26E /* tri01.jpg in Resources */,
 				9FF6A97222928C33001DD61F /* icon-nutrition-1.png in Resources */,
+				9F20146322BA1CDB00EAA26E /* bench2.jpg in Resources */,
+				9F20142922B8BC8600EAA26E /* 0009body.png in Resources */,
 				9FF6A982229448F9001DD61F /* body.jpg in Resources */,
 				9FF6A96B229279AC001DD61F /* 16938693_1380118298726786_767428057259911250_n.jpg in Resources */,
+				9F20146922BA1CDB00EAA26E /* tri01.jpg in Resources */,
 				9FF6A97322928C33001DD61F /* custom-desktop-icons-8.png in Resources */,
 				9FF6A97022928C33001DD61F /* timer-icon-21.png in Resources */,
+				9F20145322BA1CDB00EAA26E /* split2.jpg in Resources */,
+				9F20146622BA1CDB00EAA26E /* twist1.jpg in Resources */,
 				9FF6A98622966887001DD61F /* dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg in Resources */,
+				9F20145722BA1CDB00EAA26E /* 1_2.jpg in Resources */,
+				9F20145822BA1CDB00EAA26E /* reach2.jpg in Resources */,
+				9F2F74D622B62F1700A466A0 /* 04.png in Resources */,
+				9F20145F22BA1CDB00EAA26E /* dumbalter01.jpg in Resources */,
+				9F20146522BA1CDB00EAA26E /* squat2.jpg in Resources */,
+				9F20146422BA1CDB00EAA26E /* inclnepress1.jpg in Resources */,
 				9FF6A9A2229FBAAE001DD61F /* Alarm1.mp3 in Resources */,
+				9F20142622B646B500EAA26E /* note23.png in Resources */,
+				9F20146722BA1CDB00EAA26E /* tri02.jpg in Resources */,
+				9F20145922BA1CDB00EAA26E /* squat1.jpg in Resources */,
 				9FF6A9422291D0D5001DD61F /* Main.storyboard in Resources */,
+				9F20146022BA1CDB00EAA26E /* 921_2.jpg in Resources */,
+				9F20146A22BA1CDB00EAA26E /* dumbalter02.jpg in Resources */,
+				9F20145C22BA1CDB00EAA26E /* reach1.jpg in Resources */,
+				9F20142E22B9FE6000EAA26E /* tri02.jpg in Resources */,
+				9F20143522BA04AA00EAA26E /* dumbalter01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
